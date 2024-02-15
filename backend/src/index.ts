@@ -1,1 +1,11 @@
-console.log("This is the starting point for this project");
+import express from "express";
+
+const app = express();
+
+//  middlewares
+app.use(express.json());
+
+//  connections and listeners
+app.listen(5000 , () => {
+    console.log("Server Open");
+})
