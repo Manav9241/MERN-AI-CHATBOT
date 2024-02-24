@@ -9,7 +9,7 @@ const Logo = () => {
         display: "flex",
         marginRight: "auto",
         alignItems: "center",
-        gap: "8px",
+        gap: "15px",
       }}
     >
       <Link to={"/"}>
